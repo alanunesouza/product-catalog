@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import { CartPanelView } from '../../components/product-catalog/cart-panel/cart-panel.view'
+import { CartPanelContainer } from '../../components/product-catalog/cart-panel/cart-panel.container'
 import { HeaderView } from '../../components/shared/header/header.view'
 import { FiltersBarView } from '../../components/product-catalog/filters-bar/filters-bar.view'
-import { ProductListView } from '../../components/product-catalog/product-list/product-list.view'
+import { ProductListContainer } from '../../components/product-catalog/product-list/product-list.container'
 
 type Product = {
   id: number
@@ -164,13 +164,13 @@ export function ProductCatalogPage() {
           />
 
           <section className="content-grid">
-            <ProductListView
+            <ProductListContainer
               products={filteredProducts}
               onAddToCart={addToCart}
               formatCurrency={formatCurrency}
             />
 
-            <CartPanelView
+            <CartPanelContainer
               items={cartItems}
               subtotal={subtotal}
               shipping={shipping}

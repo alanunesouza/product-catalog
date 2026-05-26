@@ -6,15 +6,17 @@ export function ProductListView({
   products,
   onAddToCart,
   formatCurrency,
+  hasProducts,
+  resultsLabel,
 }: ProductListViewProps) {
   return (
     <div className="products-card">
       <div className="section-heading">
         <h2>Produtos</h2>
-        <span>{products.length} encontrados</span>
+        <span>{resultsLabel}</span>
       </div>
 
-      {products.length === 0 ? (
+      {!hasProducts ? (
         <p className="empty-state">Nenhum produto encontrado com esse filtro.</p>
       ) : (
         <div className="products-grid">

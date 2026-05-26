@@ -1,14 +1,16 @@
 import { Fragment } from 'react'
 
-import { CartItemRowView } from '../cart-item-row/cart-item-row.view'
+import { CartItemRowContainer } from '../cart-item-row/cart-item-row.container'
 import type { CartPanelViewProps } from './cart-panel.types'
 
 export function CartPanelView({
   items,
   subtotal,
-  shipping,
+  shippingLabel,
   total,
-  totalItems,
+  itemsLabel,
+  freeShippingLabel,
+  hasItems,
   onIncrease,
   onDecrease,
   onClear,
@@ -18,18 +20,18 @@ export function CartPanelView({
     <aside className="cart-card">
       <div className="section-heading">
         <h2>Carrinho</h2>
-        <span>{totalItems} itens</span>
+        <span>{itemsLabel}</span>
       </div>
 
-      <p>Frete gratis a partir de {formatCurrency(180)}.</p>
+      <p>{freeShippingLabel}</p>
 
-      {items.length === 0 ? (
+      {!hasItems ? (
         <p className="empty-state">Seu carrinho esta vazio.</p>
       ) : (
         <Fragment>
           <div className="cart-list">
             {items.map((item) => (
-              <CartItemRowView
+              <CartItemRowContainer
                 key={item.id}
                 item={item}
                 onIncrease={onIncrease}
@@ -47,7 +49,7 @@ export function CartPanelView({
 
             <div className="summary-line">
               <span>Frete</span>
-              <strong>{shipping === 0 ? 'Gratis' : formatCurrency(shipping)}</strong>
+              <strong>{shippingLabel}</strong>
             </div>
 
             <div className="summary-line summary-total">
