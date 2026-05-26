@@ -1,0 +1,28 @@
+src/App.tsx
+  h_babd1f646a100d 1-641
+src/index.css
+  s_083ea5b5aab6d3::t_d2d7f53522f9c5 34-36
+index.html
+  h_babd1f646a100d 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "65ab7d10c9ac8988cbed6ee805203483a1eebcef",
+  "prompts": {},
+  "humans": {
+    "h_babd1f646a100d": {
+      "author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_083ea5b5aab6d3": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c0c01af2-3e63-4bb2-9a30-e5a96d56fec3",
+        "model": "gpt-4.1"
+      },
+      "human_author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  }
+}
