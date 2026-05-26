@@ -1,0 +1,25 @@
+README.md
+  s_2f0297d5461732::t_2a572624108862 3,7,9-21,76-77
+  s_2f0297d5461732::t_f1c231ff7b4a01 1-2,4-6,8,22-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "9fc364f79406c854316d9625ceefd15a9c7a5edb",
+  "prompts": {},
+  "humans": {
+    "h_babd1f646a100d": {
+      "author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_2f0297d5461732": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "bb97b682-2073-4b8a-901e-3a9efcb72d2e",
+        "model": "gpt-4.1"
+      },
+      "human_author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  }
+}
