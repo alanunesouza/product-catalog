@@ -1,0 +1,34 @@
+src/components/product-catalog/cart-panel/cartPanel.view.tsx
+  h_babd1f646a100d 1-83
+src/App.tsx
+  s_42071bddf8d8d6::t_afa42d4b0dfffa 1,6
+  s_42071bddf8d8d6::t_ce64f117340c41 3
+src/App.css
+  s_42071bddf8d8d6::t_7ee0f84ff89a98 1-4,7-9,11-14,16-20,22-25,27-32,35-46,48-50,53-56,58-59,61-68,70-75,77-79,82-85,87-100,103-115,117-121,123-128,130-134,136-140,142-149,151-155,158-161,164-167,169-172,174-306
+src/pages/product-catalog/productCatalog.page.tsx
+  h_babd1f646a100d 3-6,154
+  s_42071bddf8d8d6::t_c3f8b39d6e1feb 1-2,7-153,155-189
+src/components/product-catalog/product-list/productList.view.tsx
+  h_babd1f646a100d 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "680002523deb663efedfaa6ddc71cd473793ffb5",
+  "prompts": {},
+  "humans": {
+    "h_babd1f646a100d": {
+      "author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  },
+  "sessions": {
+    "s_42071bddf8d8d6": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "0e06ac98-ae7b-4a73-90d5-9195392cf55e",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  }
+}
