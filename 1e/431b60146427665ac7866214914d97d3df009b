@@ -1,0 +1,37 @@
+src/components/product-catalog/product-list/product-list.view.tsx
+  s_42071bddf8d8d6::t_0ed38869ad9f6c 9-10,16,19
+src/components/product-catalog/product-list/product-list.types.ts
+  s_42071bddf8d8d6::t_9b74ad07143cb1 7-14
+src/components/product-catalog/cart-item-row/cart-item-row.view.tsx
+  s_42071bddf8d8d6::t_80a5b65aa3f2c2 5,8,22-23,27,32
+src/components/product-catalog/cart-panel/cart-panel.view.tsx
+  s_42071bddf8d8d6::t_d73295ec5c5840 3,9,11-13,23,26,28,34,52
+src/components/product-catalog/cart-item-row/cart-item-row.container.tsx
+  s_42071bddf8d8d6::t_0670b719ea7347 1-27
+src/components/product-catalog/product-list/product-list.container.tsx
+  s_42071bddf8d8d6::t_f577c92e795192 1-18
+src/components/product-catalog/cart-item-row/cart-item-row.types.ts
+  s_42071bddf8d8d6::t_9277f2dce32671 11-18
+src/components/product-catalog/cart-panel/cart-panel.types.ts
+  s_42071bddf8d8d6::t_d7d4a299c6bfe7 6-17
+src/pages/product-catalog/product-catalog.page.tsx
+  s_42071bddf8d8d6::t_80f829e799355c 3,6,167,173
+src/components/product-catalog/cart-panel/cart-panel.container.tsx
+  s_42071bddf8d8d6::t_283cafd459bf7c 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "1e431b60146427665ac7866214914d97d3df009b",
+  "prompts": {},
+  "sessions": {
+    "s_42071bddf8d8d6": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "0e06ac98-ae7b-4a73-90d5-9195392cf55e",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "Alan Nunes <alan.hsouza@mercadolivre.com>"
+    }
+  }
+}
