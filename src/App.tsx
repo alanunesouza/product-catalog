@@ -1,4 +1,4 @@
-import { ProductCatalogPage } from './pages/product-catalog/productCatalog.page'
+import { ProductCatalogPage } from './pages/product-catalog/product-catalog.page'
 
 import './App.css'
 

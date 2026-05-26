@@ -1,12 +1,4 @@
-type FiltersBarViewProps = {
-  search: string
-  category: string
-  sortBy: 'featured' | 'price-asc' | 'price-desc'
-  categories: string[]
-  setSearch: (value: string) => void
-  setCategory: (value: string) => void
-  setSortBy: (value: 'featured' | 'price-asc' | 'price-desc') => void
-}
+import type { FiltersBarViewProps } from './filters-bar.types'
 
 export function FiltersBarView({
   search,

@@ -1,24 +1,7 @@
 import { Fragment } from 'react'
 
-import { CartItemRowView } from '../cart-item-row/cartItemRow.view'
-
-type CartPanelViewProps = {
-  items: Array<{
-    id: number
-    name: string
-    category: string
-    quantity: number
-    total: number
-  }>
-  subtotal: number
-  shipping: number
-  total: number
-  totalItems: number
-  onIncrease: (productId: number) => void
-  onDecrease: (productId: number) => void
-  onClear: () => void
-  formatCurrency: (value: number) => string
-}
+import { CartItemRowView } from '../cart-item-row/cart-item-row.view'
+import type { CartPanelViewProps } from './cart-panel.types'
 
 export function CartPanelView({
   items,

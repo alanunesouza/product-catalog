@@ -1,17 +1,11 @@
-type CartItemRowViewProps = {
-  item: {
-    id: number
-    name: string
-    category: string
-    quantity: number
-    total: number
-  }
-  onIncrease: (productId: number) => void
-  onDecrease: (productId: number) => void
-  formatCurrency: (value: number) => string
-}
+import type { CartItemRowViewProps } from './cart-item-row.types'
 
-export function CartItemRowView({ item, onIncrease, onDecrease, formatCurrency }: CartItemRowViewProps) {
+export function CartItemRowView({
+  item,
+  onIncrease,
+  onDecrease,
+  formatCurrency,
+}: CartItemRowViewProps) {
   return (
     <article className="cart-item">
       <header>

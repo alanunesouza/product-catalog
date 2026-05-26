@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import { CartPanelView } from '../../components/product-catalog/cart-panel/cartPanel.view'
-import { HeaderView } from '../../components/shared/header/header'
-import { FiltersBarView } from '../../components/product-catalog/filters-bar/filtersBar.view'
-import { ProductListView } from '../../components/product-catalog/product-list/productList.view'
+import { CartPanelView } from '../../components/product-catalog/cart-panel/cart-panel.view'
+import { HeaderView } from '../../components/shared/header/header.view'
+import { FiltersBarView } from '../../components/product-catalog/filters-bar/filters-bar.view'
+import { ProductListView } from '../../components/product-catalog/product-list/product-list.view'
 
 type Product = {
   id: number

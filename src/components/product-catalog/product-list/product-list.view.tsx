@@ -1,19 +1,12 @@
-import { ProductCardView } from '../product-card/productCard.view'
+import { ProductCardView } from '../product-card/product-card.view'
 
-type ProductListViewProps = {
-  products: Array<{
-    id: number
-    name: string
-    category: string
-    description: string
-    price: number
-    tag: string
-  }>
-  onAddToCart: (productId: number) => void
-  formatCurrency: (value: number) => string
-}
+import type { ProductListViewProps } from './product-list.types'
 
-export function ProductListView({ products, onAddToCart, formatCurrency }: ProductListViewProps) {
+export function ProductListView({
+  products,
+  onAddToCart,
+  formatCurrency,
+}: ProductListViewProps) {
   return (
     <div className="products-card">
       <div className="section-heading">

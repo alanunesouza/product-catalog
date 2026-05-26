@@ -1,15 +1,4 @@
-type ProductCardViewProps = {
-  product: {
-    id: number
-    name: string
-    category: string
-    description: string
-    price: number
-    tag: string
-  }
-  onAddToCart: (productId: number) => void
-  formatCurrency: (value: number) => string
-}
+import type { ProductCardViewProps } from './product-card.types'
 
 export function ProductCardView({ product, onAddToCart, formatCurrency }: ProductCardViewProps) {
   return (
